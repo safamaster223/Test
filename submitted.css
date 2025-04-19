@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif, 'Verdana';
+    background: linear-gradient(120deg, #f39c12, #8e44ad);
+    background-size: 400% 400%;
+    animation: animateGradient 15s ease infinite;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    animation: bounce 2s ease infinite;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    animation: fadeIn 2s ease-out;
+}
+
+.thank {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    width: 50%;
+    transition: all 0.4s ease;
+    margin-left:20px;
+    
+}
+
+.thank:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.2);
+}
+
+.thank .button {
+    background: linear-gradient(90deg, #3498db, #2ecc71);
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color:white;
+    text-decoration: none;
+}
+
+.thank .button:hover {
+    background-color: #1abc9c;
+}
+
+/* @keyframes animateGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin:20px 20px 20px 20px;
+    width: 95%;
+   background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+    border-radius: 16px;
+    height: 80px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    align-items: center;
+    top:0;
+    position:fixed;
+    z-index: 1000;
+}
+
+.kea-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    color:white;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu {
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 120px;
+}
+
+.sub-menu {
+    width: 180px;
+    padding: 6px;
+    background-color: yellow;
+    border-radius:12px;
+    display:flex;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    transition: background-color 0.5s ease;
+    margin:12px;
+}
+
+.btn:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    background-color:rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+}
+
+.sidebar img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin:12px 12px 12px 170px;
+}
+
+.sidebar a {
+    color:white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 28vh;
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: 100px;
+}

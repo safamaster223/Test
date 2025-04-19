@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+    <link rel="stylesheet" href="query.css">
+    <link rel="icon" href="gambar/kea.jpeg" type="image/png">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="gambar/kea.jpeg" alt="Kea Hotels Logo" class="kea-logo">
+            <h1>Kea Hotels</h1>
+        </div>
+        <ul>
+            <li><a href="#sub-menu">Menu</a></li>
+            <li><a href="index.html">Fasilitas</a></li>
+            <li><a href="https://www.google.com/maps/place/H%C3%B3tel+Kea+by+Keahotels/@65.6806163,-18.0922954,1244m/data=!3m1!1e3!4m9!3m8!1s0x48d28f0e8d646097:0x7fffe224bad71468!5m2!4m1!1i2!8m2!3d65.6806163!4d-18.0897205!16s%2Fg%2F1tdcr34p!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDQxNC4xIKXMDSoASAFQAw%3D%3D">Location</a></li>
+        </ul>
+    </nav>
+
+    <section class="menu">
+        <h3>Menu</h3>
+        <div class="sub-menu" id="sub-menu">
+            <a href="index.html" class="btn">Home</a>
+            <a href="submitted.html" class="btn">Next</a>
+        </div>
+    </section>
+
+    <section class="sidebar">
+        <div class="control-sidebar">
+            <h3>Kea Hotels</h3>
+            <a id="alamat" href="https://www.google.com/maps/place/H%C3%B3tel+Kea+by+Keahotels/@65.6806163,-18.0922954,1244m/data=!3m1!1e3!4m9!3m8!1s0x48d28f0e8d646097:0x7fffe224bad71468!5m2!4m1!1i2!8m2!3d65.6806163!4d-18.0897205!16s%2Fg%2F1tdcr34p!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDQxNC4xIKXMDSoASAFQAw%3D%3D">Islandia, Akureryi,Hafnarstræti 87-89
+                600 Akureyri</a>
+            <img src="gambar/islandia-flag.png" alt="Islandia Flag" >
+            <a href="https://www.keahotels.is/hotel-kea" class="btn">Link Web Resmi</a>
+        </div>
+        <div class="sidebar-content">
+            <form method="GET" action="submitted.html">
+                <h1>Form Masukkan</h1>
+                <label for="username">User Name : </label>
+                <input type="text" id="username" name="username" placeholder="Masukkan Nama Lengkap Anda" required>
+                
+                <label for="email">Email : </label>
+                <input type="email" id="email" name="email" required placeholder="Masukkan Email Anda">
+
+                <label for="number">Nomor Telphone</label>
+                <input type="number" id="number" name="number" required placeholder="Masukkan Nomor Telphone Anda">
+            
+                <label for="Alamat">Alamat</label>
+                <input type="text" id="Alamat" name="Alamat" required placeholder="Masukkan Alamat Tinggal Anda">
+
+                <label for="kode-pos">Kode Pos</label>
+                <input type="text" id="kode-pos" name="kode-pos" required placeholder="Masukkan Kode Pos Anda">
+
+                <label for="jenis">Pilih Jenis Akomodasi Yang Bermasalah</label>
+                <input type="text" id="jenis" name="jenis" required placeholder="Masukkan Kegiatan/Permasalahan Anda"> 
+
+                <label for="message">Masukkan Keluhan Disini</label>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Masukkan Pesan Anda" required></textarea>
+
+                <div class="radio-group">
+                    <label for="balasan1">Pilih Balasan : </label>
+                    <label for="balasan1">Email</label>
+                    <input type="radio" id="balasan1" name="balasan1" value="Email" required>
+                    <label for="balasan2">Message</label>
+                    <input type="radio" id="balasan2" name="balasan1" value="message" required>
+                </div>
+                <input type="submit" value="Kirim" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Nama : Alghifari Amar Mukhasyafah</p>
+        <p>NIM : 240411100123</p>
+        <p>MATA KULIAH : Dasar Pmrograman Web A</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #2c3e50, #8e44ad, #1abc9c);
+    background-size: 400% 400%;
+    animation: animateGradient 15s ease infinite;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin:20px 20px 20px 20px;
+    width: 95%;
+   background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+    border-radius: 16px;
+    height: 80px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    align-items: center;
+    top:0;
+    position:fixed;
+    z-index: 1000;
+}
+
+.kea-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    color:white;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu {
+    padding-top:120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:55px;
+    flex-direction: column;
+}
+
+.menu a {
+    margin: 20px;
+    text-decoration: none;
+}
+
+.menu h3 {
+    background-color: #1e3a8a;
+    padding: 8px;
+    border-radius: 12px;
+    color: white;
+}
+
+.sub-menu {
+    background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+    text-align: center;
+    border-radius: 18px;
+    padding:20px;
+    width: 30%;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+    margin: 20px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding: 20px;
+    background: linear-gradient(135deg, #f8f8f8, #d9e2e8);
+    border-radius:18px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    margin:20px 200px 20px 20px;
+    color: #2c3e50; 
+    transition: all 0.4s ease;
+}
+
+
+
+label,input {
+    margin:5px
+}
+
+
+.radio-group {
+    display: flex;
+    text-align: center;
+}
+
+input {
+    border-radius: 12px;
+    padding:8px;
+}
+
+textarea {
+    border-radius:12px;
+
+}
+
+
+.sidebar-content h1 {
+    text-align: center;
+}
+
+
+
+.control-sidebar {
+    display:flex;
+    flex-direction: column;
+    height: 300px;
+    background: linear-gradient(135deg, #6a7dff, #4c6ef5); 
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.1),
+        0 8px 30px rgba(0, 0, 0, 0.15);
+    width: 250px;
+    border-radius:12px;
+    margin:20px 20px 20px 200px;
+    text-align: center;
+    color: white; 
+    transition: all 0.4s ease;
+}
+
+.control-sidebar a {
+    text-decoration: none;
+    color:white;
+}
+
+.control-sidebar a:hover {
+    text-decoration: underline;
+}
+
+.control-sidebar h3 {
+    color:white;
+}
+
+.control-sidebar img {
+    border-radius:50%;
+    height:50px;
+    width: 50px;
+    margin-left:80px;
+    padding:20px;
+}
+
+.btn {
+    background-color: orange;
+    padding: 12px;
+    border-radius: 12px;
+    margin: 12px 18px 12px 18px;
+    border:none;
+    transition: background-color 0.8s ease;
+}
+
+.btn:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 25vh;
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: 100px;
+}
+
+.sub-menu a {
+    color: white;
+}
